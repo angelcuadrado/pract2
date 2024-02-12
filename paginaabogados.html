@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IABogados</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        body {
+            background-color: #171a4a;
+            color: #e8c39e;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000020;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #e8c39e;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            text-align: center;
+            padding: 200px;
+        }
+
+        table {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #000020;
+        }
+
+        table, th, td {
+            border: 1px solid #e8c39e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px; 
+            background-color: #000020; 
+            color: #e8c39e; 
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="#main-content">Inicio</a>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#form">Contáctanos</a>
+    </nav>
+
+    <section id="main-content">
+        <div id="initial-text" class="initial-text" style="background-color: #171a4a; padding: 20px;">
+            <h1>IABogados</h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>Sobre Nosotros</h1>
+        <p>Somos la primera empresa que junta el mundo del derecho y la inteligencia artificial. Contamos con los mejores abogados y los mejores ingenieros</p>
+        <table>
+            <tr>
+                <th>Servicio</th>
+                <th>Distribuidor</th>
+            </tr>
+            <tr>
+                <td>Abogados</td>
+                <td>Garrigues</td>
+            </tr>
+            <tr>
+                <td>Inteligencia Artificial</td>
+                <td>Google</td>
+            </tr>
+        </table>
+        <img class="image" src="pacto.png">
+    </section>
+    
+
+    <section id="form">
+        <form>
+            <h2>Escribe tu correo y contactaremos contigo!</h2>
+            <input type="text">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        &copy Ángel Cuadrado Serrano
+    </footer>
+</body>
+</html>
